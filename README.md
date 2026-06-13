@@ -33,7 +33,7 @@ Add PNG or JPEG captures under `docs/screenshots/` (same base names). SVG placeh
 <h3 id="screenshot-main">Main screen (settings)</h3>
 
 <p align="center">
-  <img src="docs/screenshots/01-main-settings.svg" alt="Main screen settings" width="280" />
+  <img src="docs/screenshots/01-main-settings.png" alt="Main screen settings" width="280" />
 </p>
 
 <h3 id="screenshot-aim">Aim line and rebounds</h3>
