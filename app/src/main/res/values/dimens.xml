@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="touch_target_min">48dp</dimen>
+    <dimen name="handle_visual">20dp</dimen>
+    <dimen name="pocket_diameter">12dp</dimen>
+    <dimen name="aim_handle_diameter">16dp</dimen>
+    <dimen name="aim_line_stroke">4dp</dimen>
+    <dimen name="rebound_max_length">300dp</dimen>
+    <dimen name="dash_length">20dp</dimen>
+    <dimen name="dash_gap">10dp</dimen>
+    <dimen name="border_touch_width">20dp</dimen>
+</resources>

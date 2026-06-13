@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rebound_yellow">#FFD700</color>
+    <color name="rebound_orange">#FF8C00</color>
+    <color name="rebound_red">#FF3333</color>
+    <color name="aim_start">#FF3333</color>
+    <color name="aim_end">#33CC33</color>
+</resources>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/main_title"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="@string/main_description"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/profile_section_title"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_create_profile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/profile_create" />
+
+            <Button
+                android:id="@+id/btn_delete_profile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/profile_delete" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/config_section_title"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label_red_drag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <SeekBar
+            android:id="@+id/seek_red_drag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:max="100"
+            android:min="1" />
+
+        <TextView
+            android:id="@+id/label_green_drag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <SeekBar
+            android:id="@+id/seek_green_drag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:max="100"
+            android:min="1" />
+
+        <TextView
+            android:id="@+id/label_landscape_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <SeekBar
+            android:id="@+id/seek_landscape_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:max="40"
+            android:min="5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/config_landscape_margin_hint"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_aim_drag_offset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/config_aim_drag_offset"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/config_lines_section_title"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label_aim_line_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <SeekBar
+            android:id="@+id/seek_aim_line_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:max="100"
+            android:min="10" />
+
+        <TextView
+            android:id="@+id/label_rebound_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <SeekBar
+            android:id="@+id/seek_rebound_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:max="100"
+            android:min="10" />
+
+        <TextView
+            android:id="@+id/label_rebound_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <SeekBar
+            android:id="@+id/seek_rebound_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:max="5"
+            android:min="0" />
+
+        <TextView
+            android:id="@+id/label_line_thickness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/black" />
+
+        <SeekBar
+            android:id="@+id/seek_line_thickness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:max="4"
+            android:min="0" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_angle_hud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/config_angle_hud"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_commence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:enabled="false"
+            android:text="@string/action_commence" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_exit_app" />
+
+    </LinearLayout>
+</ScrollView>
