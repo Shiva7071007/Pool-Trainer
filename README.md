@@ -39,19 +39,19 @@ Add PNG or JPEG captures under `docs/screenshots/` (same base names). SVG placeh
 <h3 id="screenshot-aim">Aim line and rebounds</h3>
 
 <p align="center">
-  <img src="docs/screenshots/03-aim-rebounds.svg" alt="Aim line and rebound paths" width="280" />
+  <img src="docs/screenshots/03-aim-rebounds.png" alt="Aim line and rebound paths" width="280" />
 </p>
 
 <h3 id="screenshot-toggle">Floating Show / Hide pill</h3>
 
 <p align="center">
-  <img src="docs/screenshots/05-floating-toggle.svg" alt="Floating show hide control" width="320" />
+  <img src="docs/screenshots/05-floating-toggle.png" alt="Floating show hide control" width="320" />
 </p>
 
 <h3 id="screenshot-notification">Notification controls</h3>
 
 <p align="center">
-  <img src="docs/screenshots/06-notification.svg" alt="Notification actions" width="320" />
+  <img src="docs/screenshots/06-notification.png" alt="Notification actions" width="320" />
 </p>
 
 ---
